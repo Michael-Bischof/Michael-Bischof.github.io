@@ -65,6 +65,27 @@
          body {
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
          }
+
+         .row {
+         display: flex;
+         margin-left: 64px;
+         margin-right: 64px;
+         margin-top: 64px;
+         margin-bottom: 64px;
+         }
+
+         .column {
+         flex: 33.33%;
+         padding: 5px;
+         }
+
+         #rcorners2 {
+         border-radius: 25px;
+         border: 2px solid #73AD21;
+         padding: 20px; 
+         width: 200px;
+         height: 150px; 
+         }
          </style>
 
    </head>
@@ -76,7 +97,29 @@
       <img src="Resources/feedr_floating_icon.png" style="width:33%; margin-top: 128px;">
       <h1 class="center">Feedr.</h1>
       <p class="center" style="color: #747474"><b>Made for parents who want to keep things simple.</b></p>
-      <a href="https://itunes.apple.com/app/id1639579308" target="_blank"><img src="Resources/appstore_us.png" style="width:160px; margin-top: 48px;"></a>
+
+      <div class="row">
+         <div class="column">
+           <img src="Resources/Feedr Screenshots/1.png" style="width:100%; border-radius: 25px;">
+         </div>
+         <div class="column">
+           <img src="Resources/Feedr Screenshots/2.png" style="width:100%; border-radius: 25px;">
+         </div>
+         <div class="column">
+           <img src="Resources/Feedr Screenshots/3.png" style="width:100%; border-radius: 25px;">
+         </div>
+         <div class="column">
+            <img src="Resources/Feedr Screenshots/4.png" style="width:100%; border-radius: 25px;">
+          </div>
+          <div class="column">
+            <img src="Resources/Feedr Screenshots/5.png" style="width:100%; border-radius: 25px;">
+          </div>
+       </div>
+
+      
+
+      <!--<a href="https://itunes.apple.com/app/id1639579308" target="_blank"><img src="Resources/appstore_us.png" style="width:160px; margin-top: 48px;"></a>-->
+
       <p class="center" style="margin: 48px auto auto auto; max-width: calc(100% - 64px); width: 550px;">
          <b>What is Feedr?</b><br>
          A simple app to keep track when you last fed your baby and which breast was used.
